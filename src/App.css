@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,70 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f9fafb;
+}
+
+.app {
+  min-height: 100vh;
+}
+/* App.css */
+
+/* Light Mode (Default) */
+.app {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #333333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.main-content {
+  padding-top: 64px; /* Height of navbar */
+}
+
+/* Dark Mode */
+.app.dark {
+  background-color: #1a1a1a;
+  color: #e5e5e5;
+}
+
+.app.dark .main-content {
+  background-color: #1a1a1a;
+}
+
+/* Optional: Add smooth transitions to all sections */
+.app section {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Add dark mode styles for individual sections if needed */
+.app.dark section {
+  background-color: #1a1a1a;
+  color: #e5e5e5;
+}
+
+/* You can add specific dark mode overrides for each component */
+/* For example: */
+.app.dark h1,
+.app.dark h2,
+.app.dark h3 {
+  color: #ffffff;
+}
+
+.app.dark p {
+  color: #d1d1d1;
+}
+
+.app.dark a {
+  color: #60a5fa;
+}
+
+.app.dark a:hover {
+  color: #93c5fd;
 }
