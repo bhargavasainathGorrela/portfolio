@@ -21,18 +21,19 @@ const Projects = () => {
     },
     { 
       id: 3, 
-      title: 'Weather Dashboard', 
-      description: 'Real-time weather information with interactive maps, providing current conditions, forecasts, and weather alerts. Includes location search, favorite cities, and detailed weather metrics.',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'Weather API', 'Geolocation', 'Chart.js'],
-      liveDemo: 'https://example.com'
-    },
-    { 
-      id: 4, 
       title: 'FruitBox', 
       description: 'It features multiple fruit box options, detailed daily menus, and easy subscription management including pausing or changing boxes.',
       technologies: ['React', 'Javascript', 'Tailwind CSS', 'Redux', 'SEO'],
       liveDemo: 'https://bhargavasainathgorrela.github.io/FruitBox'
+    },
+    { 
+      id: 4, 
+      title: 'Weather Dashboard', 
+      description: 'Real-time weather information with interactive maps, providing current conditions, forecasts, and weather alerts. Includes location search, favorite cities, and detailed weather metrics.',
+      technologies: ['JavaScript', 'HTML5', 'CSS3', 'Weather API', 'Geolocation', 'Chart.js'],
+      liveDemo: 'https://example.com'
     }
+    
   ];
 
   return (
