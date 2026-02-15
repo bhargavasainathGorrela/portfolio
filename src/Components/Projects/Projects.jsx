@@ -7,17 +7,17 @@ const Projects = () => {
   const projects = [
     { 
       id: 1, 
-      title: 'E-Commerce Platform', 
+      title: 'GTG  Perfume', 
       description: 'A full-stack online shopping platform with payment integration, featuring user authentication, product management, shopping cart functionality, and secure payment processing.',
       technologies: ['React', 'Material UI','JavaScript', 'Stripe API'],
-      liveDemo: 'https://example.com'
+      liveDemo: 'https://gtg-perfumes-six.vercel.app/'
     },
     { 
       id: 2, 
-      title: 'Task Management App', 
-      description: 'A collaborative task manager with real-time updates, allowing teams to create, assign, and track tasks efficiently. Features include drag-and-drop interface, notifications, and progress tracking.',
+      title: 'Companies Directory', 
+      description: 'I focused on building a clean user interface, modular components, and efficient data handling.I structured the project to keep components reusable and maintained clear separation of concerns. Filtering, sorting, and pagination were implemented in a performant and user-friendly way.',
       technologies: ['React', 'Firebase','Real-time Database', 'Authentication'],
-      liveDemo: 'https://example.com'
+      liveDemo: 'https://companiesdirectory-site.vercel.app/'
     },
     { 
       id: 3, 
